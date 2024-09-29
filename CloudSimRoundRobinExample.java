@@ -13,7 +13,7 @@ import java.util.Calendar;
 import java.util.LinkedList;
 import java.util.List;
 
-public class CloudSimExampleChatGPT {
+public class CloudSimRoundRobinExample {
 
     private static List<Cloudlet> cloudletList;
     private static List<Vm> vmList;
@@ -21,8 +21,6 @@ public class CloudSimExampleChatGPT {
     public static void main(String[] args) {
 
         Log.println("Starting Simple Task Scheduler...");
-//        Log.println("hostList.add " + new RamProvisionerSimple(ram));
-//        assertNotNull(new RamProvisionerSimple(ram));
         try {
             int num_user = 1;  // number of cloud users
             Calendar calendar = Calendar.getInstance();
